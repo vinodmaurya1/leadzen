@@ -28,10 +28,10 @@ const fetchData = async()=>{
       <div   className="accordion accordion-flush my-3" id="accordionFlushExample">
       
           {articles.map((element) => (
-        <div  key={element.id} className="accordion-item">
+        <div  key={element.id} className="accordion-item bg-dark text-light">
           <h2  className="accordion-header" id="flush-headingOne">
             <button
-              className="accordion-button collapsed"
+              className="accordion-button collapsed bg-dark text-light"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne"
@@ -39,7 +39,7 @@ const fetchData = async()=>{
               aria-controls="flush-collapseOne"
             >
               <div className="container " >
-              <table className="table table-borderless">
+              <table className="table table-borderless text-light">
                 <thead>
                   <tr className="container" >
                     <th ></th>
